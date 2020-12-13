@@ -1,0 +1,14 @@
+.user {
+  color: salmon;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.button {
+  padding: 5px;
+  color: aliceblue;
+  font-weight: 700;
+  background-color: red;
+  border-radius: 3px;
+}

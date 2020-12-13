@@ -1,0 +1,16 @@
+.nav {
+  font-size: 18px;
+  font-weight: 700;
+  list-style: none;
+  margin: 20px 0;
+}
+
+.navItemLink {
+  text-decoration: none;
+  color: #212121;
+  margin: 20px;
+}
+
+.navItemLinkActiv {
+  color: salmon;
+}
