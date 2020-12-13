@@ -1,9 +1,14 @@
 .header {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: bisque;
+}
+
+.box {
+  margin: 0 auto;
+  max-width: 1000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: bisque;
 }
 
 .title {
