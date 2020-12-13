@@ -9,7 +9,9 @@ import { authSelectors } from "../../redux/auth";
 const Header = ({ isAuthenticated }) => (
   <header className={styles.header}>
     <Navigation />
-    <p className={styles.title}>Phonebook</p>
+    <p className={styles.title}>
+      <span>&#9742;</span>Phonebook<span>&#9742;</span>
+    </p>
     {isAuthenticated ? <UserMenu /> : <AuthNav />}
   </header>
 );
